@@ -10,12 +10,15 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ButtomAppBar from './components/ButtomAppBar';
 
+import CenteredGrid from './components/CenteredGrid';
+
 
 
 function App() {
   return (
    <div>
-     <ButtomAppBar /> 
+     <ButtomAppBar />
+     <CenteredGrid />
    </div>
  );
 }
