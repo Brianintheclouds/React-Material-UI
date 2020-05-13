@@ -12,6 +12,8 @@ import ButtomAppBar from './components/ButtomAppBar';
 
 import CenteredGrid from './components/CenteredGrid';
 
+import MediaCard from './components/MediaCard';
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
    <div>
      <ButtomAppBar />
      <CenteredGrid />
+     <MediaCard />
    </div>
  );
 }
