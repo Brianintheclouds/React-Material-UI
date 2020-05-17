@@ -8,9 +8,15 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
+import Cardimg from '../images/cardone.jpg'
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    display: 'inline-block',
+    marginRight: 1,
+    marginTop: 30,
+    marginLeft: 55,
   },
   media: {
     height: 140,
@@ -25,7 +31,7 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={require('../images/cardone.jpg')}
           title="Contemplative Reptile"
         />
         <CardContent>
